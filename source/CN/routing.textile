@@ -120,7 +120,7 @@ resources :videos
 
 h4. 单件 Resources
 
-有时候，你并不需要一个能够根据ID查询个体的 resource 。例如，你可能会想用 +/profile+ 来显示当前登录用户的简介，这时候你可以用 map +/profile+ (或者 +/profile/:id+) 一个单体化的 Resource 来匹配 show 行为。
+有时候，你并不需要一个能够根据ID查询个体的 resource 。例如，你可能会想用 +/profile+ 来显示当前登录用户的简介，这时候你可以用 map +/profile+ (而不是 +/profile/:id+) 一个单体化的 Resource 来匹配 show 行为。
 
 <ruby>
 match "profile" => "users#show"                           
