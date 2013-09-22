@@ -813,7 +813,7 @@ ActiveSupport::Inflector.inflections do |inflect|
 end
 </ruby>
 
-h4 在内嵌 Resource 中使用 +:as+ 参数
+h4. 在内嵌 Resource 中使用 +:as+ 参数
 
 在内嵌的 Resource 中使用 +:as+ 参数将会覆盖掉自动生成部分的 Helper 名。例如：
 
