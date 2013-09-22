@@ -446,7 +446,7 @@ h4. 命名路由
 match 'exit' => 'sessions#destroy', :as => :logout
 </ruby>
 
-这样在应用程序中产生的 Helper 就将会是 create +logout_path+ 和 +logout_url+。而调用了 +logout_path+ 就会返回 +/exit+ 路径。
+这样在应用程序中产生的 Helper 就将会是 +logout_path+ 和 +logout_url+。而调用了 +logout_path+ 就会返回 +/exit+ 路径。
 
 h4. HTTP 动词约定
 
